@@ -2,7 +2,7 @@
 // warning도 허용하고 싶지 않다면 package.json에서 lint-staged안의 eslint 명령어를 eslint --max-warnings=0 으로 변경하면
 // warning이 하나라도 출력되면 eslint에서 패스하지 못합니다.
 // package.strict-sample.json 파일 참고
-console.log('eslint warning');
+console.log("eslint warning");
 
 // 주석 풀면 eslint no-unused-var 룰에 걸려서 commit을 못합니다.
 // const unusedVar = 'eslint error'
@@ -10,3 +10,10 @@ console.log('eslint warning');
 const sum = (x, y) => x + y;
 
 module.exports = { sum };
+const str = "aaaaaaaaaa";
+const a = x => x;
+
+const obj = {
+  aaa: "aaaa",
+  "bb-bb": "cccc",
+};
