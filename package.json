@@ -10,7 +10,7 @@
   "author": "yeonuk",
   "license": "ISC",
   "lint-staged": {
-    "**/*.js": [
+    "**/*.{js,ts}": [
       "eslint",
       "prettier --write"
     ]
