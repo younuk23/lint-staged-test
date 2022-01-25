@@ -18,7 +18,7 @@
     "jest/prefer-to-have-length": "warn",
     "jest/valid-expect": "error",
     "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
-    "no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": "error"
   },
   "env": {
     "jest/globals": true
